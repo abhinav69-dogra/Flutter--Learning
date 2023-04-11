@@ -13,5 +13,5 @@
 -> Widget and element tree - : Each Stateless widget has an  correspondence Stateless element. CreateElement method
 creates elemet and mount on that on a element tree. Element also has an reference back to the widget tree and calls 
 widget build method to check the child widget and child widget cretes their own elements.
-Screenshot (71).png   
+![imp links(lifecycle widget and element tree)](https://medium.com/nerd-for-tech/flutter-widgets-lifecycle-widget-tree-and-element-tree-ac41ab1918da)   
 
