@@ -1,0 +1,8 @@
+->> Basic widgets - text, row,column , stack ,container
+-> Cloumn widget- n the Column widget, MainAxisAligment will be in the vertical direction & CrossAxisAligment in the horizontal direction.
+-> ListView is the most commonly used scrolling widget. It displays its children one after another in the scroll direction
+-> While laying out the list, visible children's elements, states and render objects will be created lazily based on existing widgets
+When a child is scrolled out of view, the associated element subtree, states and render objects are destroyed. A new child at the same position in the list will be lazily recreated along with new elements, states and render objects when it is scrolled back.
+
+-> GridView - The main axis direction of a grid is the direction in which it scrolls
+-> SingleChildScrollView-

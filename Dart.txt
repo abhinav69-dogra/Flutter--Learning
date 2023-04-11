@@ -1,1 +1,8 @@
 -> Flutter uses Dart due to its Hot reload feature which updates real time new code into the app in less than 1sec.
+-> int,bool,double,string are primitive data-types, also has special support for these lists,maps,sets,runes,symbols etc.
+-> Object: The superclass of all Dart classes except Null.
+-> Null safety - by default Dart assumes that ur variables are never null, ? use this symbol with variable declaration to incoperate a null value in a variable.
+-> ??- Called also null operator. This operator returns expression on its left, except if it is null, and if so, it returns right expression
+[https://jelenaaa.medium.com/what-are-in-dart-df1f11706dd6]
+
+(Dart cheat sheet)[https://koenig-media.raywenderlich.com/uploads/2019/08/RW-Dart-Cheatsheet-1.0.2.pdf]
