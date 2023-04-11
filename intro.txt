@@ -1,0 +1,17 @@
+->Widget -: It's an immutable description of a part of UI
+->Stateless Widget : A Stateless Widget is built based on its own configuration and does not change dynamically
+->pub.dev- its and file which consist of repositories of libraries developed for flutter.
+->analysis_options.yaml - This file determines how strict Flutter should be when analyzing your code. 
+  Since this is your first foray into Flutter, you're telling the analyzer to take it easy
+-> When we compose widgets together , they create the widget tree. Its similar to how the DOM on the browser makes a tree structure. All the mounted elements that are rendered on the screen create the element tree
+
+-> To debug a layout issue, run the app in debug mode and open the inspector by clicking the Flutter Inspector tab on the DevTools toolbar.
+-> The Flutter Framework interacts with the Flutter Engine (in blue), via an abstraction layer, called Window
+-> Bindings - During that call to the runApp() method, Flutter Framework initializes the interfaces between the Flutter Framework and the Flutter Engine. These interfaces are called bindings.
+-> Element points to one Widget and may also point to a RenderObject.
+
+-> Widget and element tree - : Each Stateless widget has an  correspondence Stateless element. CreateElement method
+creates elemet and mount on that on a element tree. Element also has an reference back to the widget tree and calls 
+widget build method to check the child widget and child widget cretes their own elements.
+Screenshot (71).png   
+

@@ -1,0 +1,1 @@
+-> Flutter uses Dart due to its Hot reload feature which updates real time new code into the app in less than 1sec.
