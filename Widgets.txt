@@ -5,4 +5,4 @@
 When a child is scrolled out of view, the associated element subtree, states and render objects are destroyed. A new child at the same position in the list will be lazily recreated along with new elements, states and render objects when it is scrolled back.
 
 -> GridView - The main axis direction of a grid is the direction in which it scrolls
--> SingleChildScrollView-
+-> SingleChildScrollView- is invalid
