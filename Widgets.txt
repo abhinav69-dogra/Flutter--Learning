@@ -5,4 +5,12 @@
 When a child is scrolled out of view, the associated element subtree, states and render objects are destroyed. A new child at the same position in the list will be lazily recreated along with new elements, states and render objects when it is scrolled back.
 
 -> GridView - The main axis direction of a grid is the direction in which it scrolls
--> SingleChildScrollView- is invalid
+-> SingleChildScrollView- A box in which a single widget can be scrolled. This widget is useful when you have a single box that will normally be entirely visible, for example a clock face in a time picker, but you need to make sure it can be scrolled if the container gets too small in one axis
+-> Theme - properties of theme is child, data and isMaterialAppTheme.
+
+-> Stateless widgets are those whose state cannot be changed once they have been created. Once developed, these widgets are immutable, which means that any changes to the variables, icons, buttons, or data retrieval will not affect the app's state. 
+
+Stateless widgets include Icon, IconButton, and Text. Stateless widgets subclass StatelessWidget.
+
+-> Stateful Widgets are widgets whose state can be changed after they've been built. These states are changeable, meaning they can change several times throughout their lives. This basically means that an app's state can change several times depending on various variables, inputs, and data. 
+It's employed when the user interface can alter on the fly. CheckBox, RadioButton, Form, and TextField are some examples.

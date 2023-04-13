@@ -15,3 +15,5 @@ creates elemet and mount on that on a element tree. Element also has an referenc
 widget build method to check the child widget and child widget cretes their own elements.
 ![imp links(lifecycle widget and element tree)](https://medium.com/nerd-for-tech/flutter-widgets-lifecycle-widget-tree-and-element-tree-ac41ab1918da)   
 
+->pub get command -gets all the dependencies listed in the pubspec. yaml file in the current working directory, as well as their transitive dependencies
+-> pub upgrade - Use dart pub upgrade to get the latest versions of all dependencies used by your Dart app

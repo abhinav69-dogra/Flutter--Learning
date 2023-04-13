@@ -1,0 +1,3 @@
+-> How to route between pages? Two Options:-
+1) Map of routes(LImited functinality) -: specify routes in functions, can't handle dynamic data.
+2) OnGenerateRoute - create a class RouteGenerator function explicitly.
