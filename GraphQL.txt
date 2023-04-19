@@ -1,0 +1,2 @@
+GraphQL is a query language and server-side runtime for APIs. It is able to provide a complete and convenient description of the data in your API. 
+-> Instead of using a fixed data structure approach, GraphQL requests specific data the client’s needs. REST responses are notorious for containing too much data or not enough. GraphQL solves this by fetching exact data in a single request

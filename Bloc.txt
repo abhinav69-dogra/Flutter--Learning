@@ -1,0 +1,4 @@
+It is used for state managementT, you are going to need a bloc, state, and event class., BLOC-BUISNESS LOGIC COMPONENT
+-> BlocProvider is in charge of providing a bloc to its children. Is the way of “initializing” the bloc before using IT., it creates a bloc lazily
+-> RepositoryProvider is used to provide a repository to its children. Normally you are going to use it when you need to create an instance of your repository class and then with the BlocProvider, you are going to access that repository with help of context.read<YourRepository>();
+-> BlocConsumer - it combines both blocBuilder and blocListner into single widget
